@@ -1,0 +1,49 @@
+{
+  "name": "simple-pm2-monitor",
+  "version": "0.0.1",
+  "description": "A PM2 module to emit events to local DB (forked from mattpker/pm2-slack)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhengx666/simple-pm2-monitor"
+  },
+  "keywords": [
+    "pm2",
+    "slack"
+  ],
+  "author": "mopduan <mopduan@gmail.com> (https://github.com/mopduan/)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/zhengx666/simple-pm2-monitor/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/zhengx666/simple-pm2-monitor/issues"
+  },
+  "homepage": "https://github.com/zhengx666/simple-pm2-monitor",
+  "dependencies": {
+    "pm2": "2.6.1",
+    "pmx": "1.2.0"
+  },
+  "config": {
+    "log": false,
+    "error": true,
+    "kill": true,
+    "exception": true,
+    "restart": true,
+    "reload": true,
+    "delete": true,
+    "stop": true,
+    "restart overlimit": true,
+    "exit": true,
+    "start": false,
+    "online": true,
+    "buffer": true,
+    "buffer_seconds": 1,
+    "queue_max": 100
+  }
+}
