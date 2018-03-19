@@ -1,6 +1,6 @@
 {
   "name": "simple-pm2-monitor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A PM2 module to emit events to local DB (forked from mattpker/pm2-slack)",
   "main": "index.js",
   "scripts": {

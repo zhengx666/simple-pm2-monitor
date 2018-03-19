@@ -87,7 +87,7 @@ pm2.launchBus(function (err, bus) {
     // Listen for PM2 events
     bus.on('process:event', function (data) {
         if (conf[data.event]) {
-            console.log('process:event uninstall');
+            console.log('process:event update');
             // console.log(data);
         }
     });
